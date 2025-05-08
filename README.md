@@ -1,4 +1,3 @@
-This project is **free to use** and does not contains any license.
 <div align="center">
   <h2 align="center">PetWorld - eCommerce & Doctor Consult website</h2>
 
