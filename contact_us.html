@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tag
+  -->
+  <title>Kitter - Hight Quality Pet Food</title>
+  <meta name="title" content="Kitter - Hight Quality Pet Food">
+  <meta name="description" content="This is an eCommerce html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/contact.css">
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Nunito+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+<!-- Header open -->
+<header class="header" data-header>
+    <div class="container">
+
+      <button class="nav-toggle-btn" aria-label="toggle manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" aria-label="true" class="close-icon"></ion-icon>
+      </button>
+
+      <a href="/" class="logo">PetWorld</a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>HOME</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="features.html" class="navbar-link" data-nav-link>FEATURE</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="services.html" class="navbar-link" data-nav-link>SERVICES</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="activity.html" class="navbar-link" data-nav-link>ACTIVITY</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="consult.html" class="navbar-link" data-nav-link>CONSULTATION</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contact_us.html" class="navbar-link" data-nav-link>CONTACT</a>
+          </li>
+        </ul>
+
+        <a href="#" class="navbar-action-btn">Log In</a>
+      </nav>
+
+      <div class="header-actions">
+
+        <button class="action-btn" aria-label="Search">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <button class="action-btn user" aria-label="User">
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <button class="action-btn" aria-label="cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+          <span class="btn-badge">0</span>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+<!-- Header Closed -->
+
+    <!-- banner open -->
+    <section class="banner1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-sm-12 col-md-12">
+                    <div class="about-text">
+                        <h1>Contact Us</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- information open -->
+    <div class="contact-section mt-5">
+        <div class="contact-item">
+            <div class="contact-icon">
+                <img src="./assets/images/phone icon.png" alt="Phone">
+            </div>
+            <h3>1-800-1234-678</h3>
+        </div>
+
+        <div class="contact-item">
+            <div class="contact-icon">
+                <img src="./assets/images/email icon.png" alt="Email">
+            </div>
+            <h3>info@demolink.org</h3>
+        </div>
+
+        <div class="contact-item">
+            <div class="contact-icon">
+                <img src="./assets/images/location.png" alt="Location">
+            </div>
+            <h3>2130 Fulton Street</h3>
+        </div>
+    </div>
+    <!-- informaton cloesd -->
+
+
+    <!-- form open -->
+    <div class="container mt-5">
+        <div class="text">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="form">
+            <!-- <div class="title">Registration</div> -->
+            <div class="content">
+                <form action="function.php" method="post">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Full Name</span>
+                            <input type="text" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Email</span>
+                            <input type="text" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Phone Number</span>
+                            <input type="text" name="number" placeholder="Enter your number" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Address</span>
+                            <input type="text" name="address" placeholder="Enter your address" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">For What</span>
+                            <select name="appointment" required>
+                                <option value="" disabled selected>Select Appointment</option>
+                                <option value="Vet visit">Vet visit</option>
+                                <option value="Grooming session">Grooming session</option>
+                                <option value="Pet Service">Pet Service</option>
+                            </select>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="details">Your Messages</span>
+                            <input type="text" name="messages" placeholder="Enter your Messages" required>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" name="Send Messages" value="Send Message">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- form closed -->
+
+      <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer mt-10" style="background-image: url('./assets/images/footer-bg.jpg')">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">PetWorld</a>
+
+          <p class="footer-text">
+            If you have any question, please contact us at <a href="mailto:support@gmail.com"
+              class="link">PetWorld@gmail.com</a>
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+              <address class="address">
+                Shankar Narayan College
+              </address>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+              <a href="tel:+16234567891011" class="contact-link">+91 45895 45896</a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">HOME</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FEATURE</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">SERVICES</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">ACTIVITY</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">CONSULTATION</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">CONTACT</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Information</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Online Store</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Refund Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms of Service</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Track Order</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Grooming</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">NGO Helpline</a>
+          </li>
+
+       
+
+          <li>
+            <a href="#" class="footer-link">Pet Adoption</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Resource Center</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2025 PetWorld. <a href="#" class="copyright-link">All rights reserved.</a>
+        </p>
+
+          <img src="./assets/images/payment.png" width="397" height="32" loading="lazy" alt="payment method" class="img">
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Footer closed-->
+
+</body>
+
+</html>

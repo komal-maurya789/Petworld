@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+    - primary meta tag
+  -->
+    <title>Kitter - Hight Quality Pet Food</title>
+    <meta name="title" content="Kitter - Hight Quality Pet Food">
+    <meta name="description" content="This is an eCommerce html template made by codewithsadee">
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Nunito+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+    <style>
+        /* Header open */
+        /* .head {
+    background-color: #151515;
+} */
+
+        .header {
+            background-color: hsl(36, 94%, 57%);
+            /* padding: 1px; */
+        }
+
+   
+
+        /* Header closed */
+
+        /* banner open */
+
+        /* Banner Section */
+        .banner1 {
+            background-image: url(./assets/images/contact_slide.jpg) !important;
+            padding: 150px;
+            margin-top: 80px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        /* Overlay Effect */
+        .banner1::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+      
+        .about {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            background-color: #fff;
+        }
+        /* Banner closed */
+
+
+          /* About open */
+        .about-container {
+            display: flex;
+            align-items: center;
+            max-width: 1200px;
+            gap: 40px;
+        }
+
+        .about-text {
+            flex: 1;
+        }
+
+        .about-text h2 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .about-text p {
+            /* font-size: 24; */
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: #43A5CF;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #3790B8;
+        }
+
+        .about-image {
+            flex: 1;
+        }
+
+        .about-image img {
+            width: 100%;
+            max-width: 100%;
+        }
+
+
+        /* About closed */
+
+        /* Service open */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .pro_img {
+            padding: 50px 0;
+        }
+
+        .project_img {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .project_img img {
+            width: 100%;
+            max-width: 270px;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .project_img img:hover {
+            transform: scale(1.05);
+        }
+
+        .project_text {
+            display: block;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #loadMoreBtn {
+            background-color: #61bad6;
+            color: white;
+        }
+
+        #loadMoreBtn:hover {
+            background-color: #31b0d5;
+        }
+
+        #showLessBtn {
+            background-color: #d9534f;
+            color: white;
+        }
+
+        #showLessBtn:hover {
+            background-color: #c9302c;
+        }
+
+        /* Service closed */
+
+
+        /* Appointment open */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .section-appointment {
+            background-color: #61bad6;
+            padding: 45px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .puppy-image {
+            width: 100%;
+            max-width: 359px;
+            height: auto;
+        }
+
+        .content-box {
+            text-align: left;
+        }
+
+        .appointment-btn {
+            background-color: #b2e8f9;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        .appointment-btn:hover {
+            background-color: #31b0d5;
+            color: white;
+        }
+
+        /* Appointment closed */
+
+        /* footer open */
+        .bg_footer {
+            background-color: #000;
+        }
+
+        .text-md-start {
+            padding-top: 2% !important;
+        }
+
+        /* footer closed */
+    </style>
+
+</head>
+
+<body>
+    <!-- Header open -->
+    <header class="header" data-header>
+        <div class="container">
+
+            <button class="nav-toggle-btn" aria-label="toggle manu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+                <ion-icon name="close-outline" aria-label="true" class="close-icon"></ion-icon>
+            </button>
+
+            <a href="/" class="logo">PetWorld</a>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link" data-nav-link>HOME</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="features.html" class="navbar-link" data-nav-link>FEATURE</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="services.html" class="navbar-link" data-nav-link>SERVICES</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="activity.html" class="navbar-link" data-nav-link>ACTIVITY</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="consult.html" class="navbar-link" data-nav-link>CONSULTATION</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="contact_us.html" class="navbar-link" data-nav-link>CONTACT</a>
+                    </li>
+                </ul>
+
+                <a href="#" class="navbar-action-btn">Log In</a>
+            </nav>
+
+            <div class="header-actions">
+
+                <button class="action-btn" aria-label="Search">
+                    <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="action-btn user" aria-label="User">
+                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="action-btn" aria-label="cart">
+                    <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="btn-badge">0</span>
+                </button>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Header Closed -->
+
+    <!-- banner open -->
+    <section class="banner1 mt-10">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-sm-12 col-md-12">
+                    <div class="about-text">
+                        <h1>Services</h1>
+                        <a href="#" class="btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- banner closed -->
+
+
+    <!-- About open -->
+    <section class="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>A Few Words About Us</h2>
+                <p>We are passionate about pets and their well-being. Our team is dedicated to providing the best care
+                    and services for your furry friends. From training to grooming, we ensure your pets feel loved and
+                    cherished.</p>
+                <p>Join us in creating a better world for pets. Whether you need expert advice, professional services,
+                    or simply a place to connect with fellow pet lovers, we are here for you!</p>
+                <button class="btn">Learn More</button>
+            </div>
+            <div class="about-image">
+                <img src="./assets/images/services-1-804x552.png" alt="Group of Pets">
+            </div>
+        </div>
+    </section>
+    <!-- About closed -->
+
+    <!-- services open -->
+    <section class="our-sercive1 page-section-pt mt-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="section-title text-center">
+                <h2 class="h2 section-title">
+                  <span class="span">SERVICES</span>
+                </h2>
+                <p>We offer a variety of grooming services for dogs of all breeds and ages. We use only high-quality
+                  products that suit the needs of your pet. Discover our most popular services below.If you want
+                  service,
+                  click on the image to contact us.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="pro_img">
+          <div class="container">
+            <div class="row" id="image-container">
+              <!-- Default 4 Images -->
+              <div class="services-container">
+                <div class="project_img col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <a href="./Services.html"><img src="./assets/images/service-thumbnail-1-270x200.jpg" alt=""></a>
+                  <a href="./Services.html" class="project_text">Styling</a>
+                </div>
+
+                <div class="project_img col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <a href="./Services.html"><img src="./assets/images/service-thumbnail-2-270x200.jpg" alt=""></a>
+                  <a href="./Services.html" class="project_text">Full Grooming</a>
+                </div>
+
+                <div class="project_img col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <a href="./Services.html"><img src="./assets/images/service-thumbnail-3-270x200.jpg" alt=""></a>
+                  <a href="./Services.html" class="project_text">Bath & Tidy Up</a>
+                </div>
+
+                <div class="project_img col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <a href="./Services.html"><img src="./assets/images/service-thumbnail-4-270x200.jpg" alt=""></a>
+                  <a href="./Services.html" class="project_text">Bath & Tidy Up</a>
+                </div>
+
+                <div class="project_img col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <a href="./Services.html"><img src="./assets/images/service-thumbnail-1-270x200.jpg" alt=""></a>
+                  <a href="./Services.html" class="project_text">Styling</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </section>
+    <!-- Services closed -->
+
+
+    <!-- Appointment open  -->
+    <section class="section-appointment mt-5">
+        <div class="container">
+            <div class="row align-items-center flex-column-reverse flex-lg-row">
+
+                <!-- Image Column -->
+                <div class="col-lg-6 text-center">
+                    <img src="./assets/images/home-3-359x546.png" alt="Puppy Image" class="puppy-image" >
+                </div>
+
+                <!-- Text Content Column -->
+                <div class="col-sm-9 col-md-7 col-lg-6">
+                    <div class="content-box">
+                        <h4 class="text-white">Take the First Step to the</h4>
+                        <h2 class="text-white fw-bold">Success of Your Company</h2>
+                        <p class="text-white">
+                            We can make your company the leader of the market by providing
+                            high-quality business management solutions. Schedule an appointment to find out more.
+                        </p>
+                        <a href="./contact_us.html" class="btn btn-primary appointment-btn">Make an Appointment</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Appointment closed -->
+
+
+
+    <!-- NGO Service open -->
+    <section class="ngo_section mt-7">
+        <h2 class="h2 section-title">
+          <span class="span">NGO Helpline Directory</span>
+        </h2>
+        <p>Find nearby animal welfare organizations and helplines for emergency assistance.</p>
+
+        <input type="text" id="search" placeholder="Search by name or location..." onkeyup="searchNGO()">
+
+        <table class="table_sec">
+          <thead class="th_sec">
+            <tr>
+              <th>NGO Name</th>
+              <th>Location</th>
+              <th>Helpline Number</th>
+            </tr>
+          </thead>
+          <tbody id="ngo-list" class="tb_sec">
+            <tr>
+              <td>Animal Rescue Foundation</td>
+              <td>Mumbai</td>
+              <td><a href="tel:+911234567890">+91 12345 67890</a></td>
+            </tr>
+            <tr>
+              <td>Blue Cross Society</td>
+              <td>Delhi</td>
+              <td><a href="tel:+911112223344">+91 11122 23344</a></td>
+            </tr>
+            <tr>
+              <td>Pet Care NGO</td>
+              <td>Bangalore</td>
+              <td><a href="tel:+919876543210">+91 98765 43210</a></td>
+            </tr>
+            <tr>
+              <td>Animal Welfare Trust</td>
+              <td>Kolkata</td>
+              <td><a href="tel:+914567890123">+91 45678 90123</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>Submit an NGO</h2>
+        <input type="text" id="ngo-name" placeholder="NGO Name">
+        <input type="text" id="ngo-location" placeholder="Location">
+        <input type="text" id="ngo-phone" placeholder="Helpline Number">
+        <button onclick="addNGO()" class="btn_ngo">Add NGO</button>
+      </section>
+
+      <script>
+        function searchNGO() {
+          let input = document.getElementById("search").value.toLowerCase();
+          let table = document.getElementById("ngo-list");
+          let rows = table.getElementsByTagName("tr");
+
+          for (let row of rows) {
+            let name = row.getElementsByTagName("td")[0].textContent.toLowerCase();
+            let location = row.getElementsByTagName("td")[1].textContent.toLowerCase();
+            row.style.display = name.includes(input) || location.includes(input) ? "" : "none";
+          }
+        }
+
+        function addNGO() {
+          let name = document.getElementById("ngo-name").value;
+          let location = document.getElementById("ngo-location").value;
+          let phone = document.getElementById("ngo-phone").value;
+
+          if (name && location && phone) {
+            let table = document.getElementById("ngo-list");
+            let row = table.insertRow();
+
+            row.innerHTML = `<td>${name}</td><td>${location}</td><td><a href="tel:${phone}">${phone}</a></td>`;
+
+            document.getElementById("ngo-name").value = "";
+            document.getElementById("ngo-location").value = "";
+            document.getElementById("ngo-phone").value = "";
+          } else {
+            alert("Please fill all fields!");
+          }
+        }
+
+      </script>
+    <!-- NGO Service Closed -->
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer mt-10" style="background-image: url('./assets/images/footer-bg.jpg')">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">PetWorld</a>
+
+          <p class="footer-text">
+            If you have any question, please contact us at <a href="mailto:support@gmail.com"
+              class="link">PetWorld@gmail.com</a>
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+              <address class="address">
+                Shankar Narayan College
+              </address>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+              <a href="tel:+16234567891011" class="contact-link">+91 45895 45896</a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">HOME</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FEATURE</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">SERVICES</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">ACTIVITY</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">CONSULTATION</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">CONTACT</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Information</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Online Store</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Refund Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms of Service</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Track Order</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Grooming</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">NGO Helpline</a>
+          </li>
+
+       
+
+          <li>
+            <a href="#" class="footer-link">Pet Adoption</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Resource Center</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2025 PetWorld. <a href="#" class="copyright-link">All rights reserved.</a>
+        </p>
+
+          <img src="./assets/images/payment.png" width="397" height="32" loading="lazy" alt="payment method" class="img">
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+
+
+
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- Footer closed-->
+</body>
+
+</html>
