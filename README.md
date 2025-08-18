@@ -3,7 +3,7 @@
 
  PetWorld is a fully responsive ecommerce & Doctor Consult website, <br />Responsive for all devices, build using HTML, CSS, JavaScript and for Database use PHP.
 
-  <a href="http://localhost/petWorld/"><strong>➥ Live Demo</strong></a>
+  <a href="petworldecom.netlify.app"><strong>➥ Live Demo</strong></a>
 
 </div>
 
