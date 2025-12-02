@@ -1,104 +1,35 @@
-🐾 PetWorld - eCommerce & Doctor Consult website
+🐾 PetWorld - eCommerce & Doctor Consult website<br>
 
-PetWorld is a full-stack web application designed to provide a seamless platform for pet lovers to purchase pet products, consult veterinarians, and access reliable pet-care resources. The goal of the platform is to create a trusted ecosystem between pet owners, pet sellers, and veterinary professionals.
+PetWorld is a responsive full-stack web application where users can buy pet products, consult veterinarians, and access pet-care guidance, built using HTML, CSS, JavaScript, PHP, and MySQL.<br><br>
 
-✨ Key Highlights
-✔ Modern, clean, responsive UI
-✔ Real-world use case project
-✔ End-to-end full-stack implementation
-✔ Secure authentication & data handling
-✔ Perfect for portfolio & hiring showcase
+🔥 Features<br>
+🛒 Pet product marketplace<br>
+👨‍⚕️ Online vet consultation<br>
+🔐 User authentication (login/register)<br>
+📦 Order and cart system<br>
+🐶 Pet-care precautions & advice<br>
+💾 MySQL database storage<br><br>
 
-🧩 Core Features
-🛒 Online Pet Store
-Explore categorized pet products
-Product details & description view
-Add-to-cart and remove items
-Secure order placement
-Customer order history
+🛠 Tech Stack<br>
+Frontend: HTML, CSS, JavaScript<br>
+Backend: PHP<br>
+Database: MySQL<br>
+Server: XAMPP<br><br>
 
-🧑‍⚕️ Vet Doctor Consultation
-Book consultation sessions
-Ask pet-health related questions
-Receive expert recommendations
-Database of pet doctors (optional)
+🚀 Setup<br>
+Clone the repo<br>
+Place in htdocs folder (XAMPP)<br>
+Import DB<br>
+Run at: http://localhost/PetWorld<br><br>
 
-🐶 Pet Wellness & Education
-Precautions & preventive care
-Health tips for different breeds
-Nutrition & diet suggestions
-Vaccination & grooming guidelines
+📌 Future Enhancements<br>
+Online payment<br>
+Real-time chat with doctors<br>
+Admin dashboard<br>
+Smart pet health suggestions<br><br>
 
-🔑 User Authentication
-User registration & login
-Profile & account data
-Password validation
-(Optional) Doctor authentication
+⭐ Support<br>
+If you found this project helpful or inspiring, please consider giving it a ⭐ star on GitHub — it really helps!<br><br>
 
-🛠 Tech Stack
-Technology	Usage
-HTML	UI layout & structure
-CSS	Styling & responsiveness
-JavaScript	User interactions
-PHP	Backend logic
-MySQL	Database
-XAMPP / WAMP	Local hosting
-Git / GitHub	Version control
-
-📂 Project Folder Structure
-PetWorld/
-│── assets/
-│── css/
-│── js/
-│── pages/
-│── php/
-│── database/
-│── index.php
-│── README.md
-
-🚀 Local Setup (Installation)
-1️⃣ Clone Repository
-git clone https://github.com/YourName/PetWorld.git
-
-2️⃣ Move into Local Server Directory (XAMPP)
-C:/xampp/htdocs/PetWorld
-
-3️⃣ Import Database
-Open phpMyAdmin
-Create database: petworld_db
-Import the SQL file provided
-
-4️⃣ Run the Application
-http://localhost/PetWorld/
-
-📌 Demonstration & Use Cases
-👨‍👩‍👧 Pet owners can…
-✔ Buy products
-✔ Book a vet consultation
-✔ Ask pet-related questions
-
-🐕 Pet sellers can…
-✔ List products
-✔ Respond to customer queries
-
-🩺 Veterinarians can…
-✔ Consult online
-✔ Share medical advice
-
-🔮 Future Improvements
-Online payment gateway (Razorpay / Stripe)
-Real-time chat with doctors
-Order tracking system
-Admin dashboard (products/users/orders)
-Push notifications / email notifications
-Smart AI-based symptom checker
-
-🙌 Contribution Guidelines
-Contributions, feature requests, and suggestions are welcome!
-Please create an issue or submit a pull request.
-
-⭐ Support
-If you found this project helpful or inspiring, please consider giving it a ⭐ star on GitHub — it really helps!
-
-<img width="1920" height="8645" alt="screencapture-localhost-petworld-index-html-2025-04-02-22_31_39" src="https://github.com/user-attachments/assets/a00ebb74-f8cf-42ce-9750-06261b776e9c" />
+<img width="100%" height="100%" alt="screencapture-localhost-petworld-index-html-2025-04-02-22_31_39" src="https://github.com/user-attachments/assets/a00ebb74-f8cf-42ce-9750-06261b776e9c" />
 
