@@ -31,7 +31,7 @@ Smart pet health suggestions<br><br>
 ⭐ Support<br>
 If you found this project helpful or inspiring, please consider giving it a ⭐ star on GitHub — it really helps!<br><br>
 
-Project Link : petworldecom.netlify.app
+Project Link : https://petworldecom.netlify.app/
 
 <img width="100%" height="100%" alt="screencapture-localhost-petworld-index-html-2025-04-02-22_31_39" src="https://github.com/user-attachments/assets/a00ebb74-f8cf-42ce-9750-06261b776e9c" />
 
